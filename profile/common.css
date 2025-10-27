@@ -134,6 +134,17 @@ height: auto;
 }
 
 .testg{
+    width: 220px;
+    height: 440px;
+    /* object-fit: cover; */
+}
+
+.testgg{
+    width: 500px;
+    height: 300px;
+    /* object-fit: cover; */
+}
+.testggg{
     width: 300px;
     height: 400px;
     /* object-fit: cover; */
@@ -221,7 +232,29 @@ header nav ul li a:hover{
     display: flex;
     justify-content: space-between;
 } 
+  .sectionc{
+    padding: 40px;
+    background-color: rgb(226, 226, 226);
+  }
+  .sectionc .contain{
+    width: 90%;
+    margin:0 auto;
+    max-width: 1280px;
+  }
+  .sectionc .contain{
+    width: 90%;
+    margin:0 auto;
+    max-width: 1920px;
+}
 
+.sectionc .col{
+ width: 40vw;
+    text-align: center;
+}
+ .sectionc .row{
+    display: flex;
+    justify-content: space-between;
+} 
   .slick-prev:before,
   .slick-next:before {
       color: black !important;
